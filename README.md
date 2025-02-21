@@ -1,4 +1,5 @@
 ## Riona-AI-Agent 🌸
+中文测试
 
 Riona-AI-Agent is an AI-powered automation tool designed for **Instagram** to automate social media interactions such as posting, liking, and commenting. It leverages advanced AI models to generate engaging content, automate interactions, and manage Instagram accounts efficiently.
 
@@ -25,78 +26,78 @@ Before using the automation features, you can personalize the agent by training 
 
 1. **Clone the repository**:
 
-   ```sh
-   git clone https://github.com/david-patrick-chuks/Riona-AI-Agent.git
-   cd Riona-AI-Agent
+   ```嘘
+   git克隆https://github.com/david-patrick-chuks/Riona-AI-Agent.git
+   CD Riona-AI-代理
    ```
 
-2. **Install dependencies**:
+2. **安装依赖项**:
 
-   ```sh
-   npm install
+   ```嘘
+   npm安装
    ```
 
-3. **Set up environment variables**:
-   Rename the [.env.example](http://_vscodecontentref_/1) file to [.env](http://_vscodecontentref_/1) in the root directory and add your Instagram credentials. Refer to the [.env.example](http://_vscodecontentref_/2) file for the required variables.
-   ```dotenv # Instagram credentials
-   IGusername=your_instagram_username
-   IGpassword=your_instagram_password 
+3. **设置环境变量**:
+重命名[. env .示例](http://_vscodecontentref_/1)文件到[。包封/包围（动词envelop的简写）](http://_vscodecontentref_/1)并添加您的Instagram凭据。请参考[. env .示例](http://_vscodecontentref_/2)所需变量的文件。
+   ```dotenv # Instagram凭证
+   iguser name = your _ insta gram _ username
+   ig password = your _ insta gram _ password
    
-   Xusername= #Twitter username
-   Xpassword= #Twitter password
+   Xusername= #Twitter用户名
+   Xpassword= #Twitter密码
 
-   MONGODB_URI= #MongoDB URI
+   URI蒙哥数据库= #蒙哥数据库
 
 ```
 
-## Usage
+##用法
 
-1. **Run the Instagram agent**:
-   ```sh
-   npm start
+1.**运行Instagram代理* *:
+``嘘
+npm开始
    ```
 
-**Upcoming Features:**
+**即将推出的功能:**
 
-- **Run the Twitter agent** (Coming soon):
+- **运行Twitter代理**(即将推出):
 
-  ```sh
-  npm run start:twitter
+  ```嘘
+  npm运行开始:twitter
   ```
 
-- **Run the GitHub agent** (Coming soon):
-  ```sh
-  npm run start:github
+- **运行GitHub代理**(即将推出):
+  ```嘘
+  npm运行开始:github
   ```
 
-## Project Structure
+##项目结构
 
-- **src/client**: Contains the main logic for interacting with social media platforms like Instagram.
-- **src/config**: Configuration files, including the logger setup.
-- **src/utils**: Utility functions for handling errors, cookies, data saving, etc.
-- **src/Agent**: Contains the AI agent logic and training scripts.
-- **src/Agent/training**: Training scripts for the AI agent.
-- **src/schema**: Schema definitions for AI-generated content and database models.
-- **src/test**: Contains test data and scripts, such as example tweets.
+- **src/客户**:包含与Instagram等社交媒体平台交互的主要逻辑。
+- **src/config**:配置文件，包括记录器设置。
+- **src/utils**:用于处理错误、cookies、数据保存等的实用功能。
+- **src/代理**:包含AI代理逻辑和训练脚本。
+- **服务代表/代理/培训**:人工智能代理的训练脚本。
+- **src/模式**:AI生成的内容和数据库模型的模式定义。
+- **src/测试**:包含测试数据和脚本，比如示例tweets。
 
-## Logging
+##伐木
 
-The project uses a custom logger to log information, warnings, and errors. Logs are saved in the [logs](http://_vscodecontentref_/3) directory.
+该项目使用自定义记录器来记录信息、警告和错误。日志保存在[日志](http://_vscodecontentref_/3)目录。
 
-## Error Handling
+##错误处理
 
-Process-level error handlers are set up to catch unhandled promise rejections, uncaught exceptions, and process warnings. Errors are logged using the custom logger.
+设置流程级错误处理程序是为了捕获未处理的承诺拒绝、未捕获的异常和流程警告。使用自定义记录器记录错误。
 
-## Contributing
+##贡献的
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+欢迎投稿！请派生存储库并提交包含您的更改的拉请求。
 
-## License
+##许可证
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+这个项目是在麻省理工学院的许可下进行的。有关详细信息，请参见许可证文件。
 
-## Acknowledgements
+##承认
 
-- [Google Generative AI](https://ai.google/tools/) for providing the AI models.
-- [Puppeteer](https://github.com/puppeteer/puppeteer) for browser automation.
-- [puppeteer-extra](https://github.com/berstend/puppeteer-extra) for additional plugins and enhancements.
+- [谷歌生成人工智能](https://ai.google/tools/)提供人工智能模型。
+- [操纵木偶的人](https://github.com/puppeteer/puppeteer)用于浏览器自动化。
+- [木偶师-额外](https://github.com/berstend/puppeteer-extra)获得额外的插件和增强功能。
